@@ -2623,20 +2623,24 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 0 0 2em 0;
 		}
-
+		
 		#header strong, #header b {
 			color: #ffffff;
 		}
-
+		
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
-
+		
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			border-radius: 10px;
+			padding: 10px;
+			background-color: rgba(0, 0, 0, 0.5);
+			float: inline-end;
 		}
 
 		#header .image.avatar {
