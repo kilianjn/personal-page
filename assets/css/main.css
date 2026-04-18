@@ -124,6 +124,7 @@ input, select, textarea {
 	strong, b {
 		color: #ededed;
 		font-weight: 400;
+		font-size: 30px;
 	}
 
 	em, i {
