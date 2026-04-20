@@ -18,11 +18,20 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a><br />
-					<h1><strong>Kilian Jain</strong><br />
+					<h1 id="header-title"><strong>Kilian Jain</strong><br />
 					Physics | 3D-printing | Programming<br />
 					Plus random stuff.</h1>
 				</div>
 			</header>
+
+		<div id="top-controls">
+			<select id="lang-select">
+				<option value="en">English</option>
+				<option value="de">Deutsch</option>
+				<option value="sv">Svenska</option>
+			</select>
+			<button id="theme-toggle">🌙</button>
+		</div>
 
 		<!-- Main -->
 			<div id="main">
@@ -30,58 +39,58 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Welcome!</h2>
-							<h3>Nice to meet you.</h3>
+							<h2 id="welcome">Welcome!</h2>
+							<h3 id="nice-to-meet">Nice to meet you.</h3>
 						</header>
-						<p>I am a clinical physicist working with Magnetic Resonance Imaging at the Uppsala University Hospital (Akademiska Sjukhuset). 
+						<p id="intro">I am a clinical physicist working with Magnetic Resonance Imaging at the Uppsala University Hospital (Akademiska Sjukhuset). 
 							Born and raised in Bochum, Germany where I received my BSc and MSc in Physics, I decided to move to Sweden in early 2023.
 							<br/>
 							With a deep technical background I have accumulated a particular set of skills over the years ranging from Scientific Programming, App Development, Deep Knowledge of MRI, Analytical Problem Solving to finishing a bottle of beer in the most efficient way.
 							When posed a problem I value creative thinking and a hands-on approach when tackling it. <br/>
 							
-							My leasure is filled with tons of different and sometimes even random stuff; be my guest and take a look.
+							My leisure is filled with tons of different and sometimes even random stuff; be my guest and take a look.
 							If you're hiring, you can find my CV down below ;)
 													</p>
 						<ul class="actions">
-							<li><a href="files/public_CV.pdf" class="button">Full CV</a></li>
+							<li><a href="files/public_CV.pdf" class="button" id="full-cv">Full CV</a></li>
 						</ul>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Recent Work</h2>
+						<h2 id="recent-work">Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>3D-printing</h3>
-								<p>
-									An invaluabe tool in my arsenal has become the art of 3D-modelling and printing.
+								<h3 id="work1-title">3D-printing</h3>
+								<p id="work1-desc">
+									An invaluable tool in my arsenal has become the art of 3D-modelling and printing.
 									Coming up with an idea, turning it into bits and finally producing a corresponding piece of matter has transformed so many problems into interesting hobby projects and made me aware of how big the problem-space one can tackle really is.
 								</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Brazilian Jiu Jitsu</h3>
-								<p>Proud athlete and dipping my toes into competitions, and yes, I won that match</p>
+								<h3 id="work2-title">Brazilian Jiu Jitsu</h3>
+								<p id="work2-desc">Proud athlete and dipping my toes into competitions, and yes, I won that match</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Sewing</h3>
-								<p>Making clothes while exploring my inner grandma</p>
+								<h3 id="work3-title">Sewing</h3>
+								<p id="work3-desc">Making clothes while exploring my inner grandma</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>My masters project</h3>
-								<p>Combining two things I like, playing around with multi million dollar MRIs, 3D printing and coming up with analysis tool for the images, check it out on <a href="https://github.com/kilianjn/orqa">Github</a></p>
+								<h3 id="work4-title">My masters project</h3>
+								<p id="work4-desc">Combining two things I like, playing around with multi million dollar MRIs, 3D printing and coming up with analysis tool for the images, check it out on <a href="https://github.com/kilianjn/orqa">Github</a></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Swedish Sauna Aufguss Championship</h3>
-								<p>Got to participate in the first Swedish Championship (SM) in classic Aufguss. It was a great time and I placed in the upper halv which I can live with as a hobbyist sauna guru</p>
+								<h3 id="work5-title">Swedish Sauna Aufguss Championship</h3>
+								<p id="work5-desc">Got to participate in the first Swedish Championship (SM) in classic Aufguss. It was a great time and I placed in the upper half which I can live with as a hobbyist sauna guru</p>
 							</article>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Back to Start</a></li>
+							<li><a href="#" class="button" id="back-to-start">Back to Start</a></li>
 						</ul>
 					</section>
 
@@ -452,7 +461,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="mailto:kilianjain@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; 2026</li><li>Made with <3 with help from <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; 2026</li><li id="footer-text">Made with <3 with help from <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>

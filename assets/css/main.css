@@ -2648,6 +2648,41 @@ input, select, textarea {
 			width: 8em;
 		}
 
+		/* Top controls */
+		#top-controls {
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			z-index: 1000;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+		}
+
+		#top-controls #lang-select {
+			background: rgba(255, 255, 255, 0.1);
+			border: solid 1px rgba(255, 255, 255, 0.3);
+			color: rgba(255, 255, 255, 0.8);
+			padding: 0.5em;
+			border-radius: 0.35em;
+			font-size: 0.9em;
+		}
+
+		#top-controls #theme-toggle {
+			background: rgba(255, 255, 255, 0.1);
+			border: solid 1px rgba(255, 255, 255, 0.3);
+			color: rgba(255, 255, 255, 0.8);
+			padding: 0.5em;
+			border-radius: 0.35em;
+			cursor: pointer;
+			font-size: 0.9em;
+			width: 2.5em;
+			height: 2.5em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
 /* Footer */
 
 	#footer .icons {
@@ -2982,6 +3017,39 @@ input, select, textarea {
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+/* Light mode */
+body.light-mode {
+	background: #ffffff;
+}
+
+body.light-mode, body.light-mode input, body.light-mode select, body.light-mode textarea {
+	color: #333333;
+}
+
+body.light-mode #header {
+	background-color: #f0f0f0;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+body.light-mode #header strong, body.light-mode #header b {
+	color: #000000;
+}
+
+body.light-mode #header h1 {
+	color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+body.light-mode #header h2, body.light-mode #header h3, body.light-mode #header h4, body.light-mode #header h5, body.light-mode #header h6 {
+	color: #000000;
+}
+
+body.light-mode #top-controls #lang-select, body.light-mode #top-controls #theme-toggle {
+	background: rgba(0, 0, 0, 0.1);
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.8);
+}
 
 /* XLarge */
 
